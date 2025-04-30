@@ -28,13 +28,12 @@ web-app/
 ## Installation
 
 1. Assurez-vous d'avoir Python installé sur votre système
-2. Exécutez le script `run.bat` qui va :
+2. Exécutez le script `pip install -r requirements.txt ` qui va :
    - Installer les dépendances nécessaires
-   - Démarrer l'application web
 
 ## Utilisation
 
-1. Lancez l'application et CD web-epp et exécutez `run.bat`
+1. Lancez l'application et CD web-epp et exécutez `python app.py`
 2. Ouvrez votre navigateur et accédez à `http://localhost:5000`
 3. Cliquez sur "Sélectionner une image" pour choisir une image de célébrité
 4. Cliquez sur "Analyser" pour lancer la détection
@@ -58,11 +57,3 @@ web-app/
 - Les images sont prétraitées pour correspondre aux exigences du modèle
 - L'interface utilise Bootstrap pour le design responsive
 
-## Dépannage
-
-Si vous rencontrez des problèmes :
-
-1. Vérifiez que toutes les dépendances sont installées
-2. Assurez-vous que le modèle et le fichier label_dict.pkl sont présents
-3. Vérifiez que le port 5000 n'est pas utilisé par une autre application
-4. Consultez les logs de l'application pour plus de détails 
